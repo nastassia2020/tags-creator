@@ -1,12 +1,15 @@
-import React from 'react';
-import './App.css';
+import React from 'react'
+import Header from './components/header/Header'
+import Notes from './features/notes/Notes'
+import './App.css'
 
 function App() {
   return (
-    <div className="App">
-      HELLO
+    <div>
+      <Header />
+      <Notes />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
